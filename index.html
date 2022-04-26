@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link href="C:\Users\Kian\Desktop\startbootstrap-freelancer-gh-pages\js" />
 		<link href="C:\Users\Kian\Desktop\startbootstrap-freelancer-gh-pages\css" />
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         
         <style>
             header{
@@ -39,30 +40,37 @@
     transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 0.26);
               color: black;
-              padding: 10%;
+              padding: 8%;
               width: 90%;
   }
   .btn{
-      border: 1px solid antiquewhite;
-      color: antiquewhite;
-      margin-left: 45%
+      border: 1px solid rgb(0, 73, 21);
+      color: darkblue;
+      margin-left: 43%
   }
+  #skills{
+      border: 1px solid darkblue;
+  }
+  label{
+      color: antiquewhite;
+  }
+  
         </style>
     </head>
     <body id="page-top" >
         <!-- Navigation-->
             <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
                 <div class="container">
-                    <a class="navbar-brand" href="#page-top"><img src="assets/KM-1.png" style="width: 50px; height: 50px;"></a>
+                    <a class="navbar-brand" href="#page-top"><img src="assets/KM-1.png" style="width: 100px; height: 100px;"></a>
                     <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                         Menu
                         <i class="fas fa-bars"></i>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarResponsive">
                         <ul class="navbar-nav ms-auto">
-                            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#home">Home</a></li>
+                            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#page-top">Home</a></li>
                             <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#skills">Skills</a></li>
-                            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#works">Works</a></li>
+                            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="work.html">Works</a></li>
                             <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
                             <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
                         </ul>
@@ -70,89 +78,62 @@
                 </div>
             </nav>
         <!-- Masthead-->
-        <header class="masthead bg-info text-white text-center" id="home" >
+        <header class="masthead bg-info text-white text-center w3-animate-zoom " id="home"  style="margin-top: 4%; padding-bottom: 10%;">
             <div class="container d-flex align-items-center flex-column" >
                 <!-- Masthead Avatar Image-->
                 <div id="centered1">
-                    <img class="masthead-avatar mb-5"  src="assets/kian-1x1.png" style="border-radius: 40%; border: 3px solid rgba(146, 146, 164, 0.658);" alt="..." />
+                    <img class="masthead-avatar mb-5"  src="assets/kian-1x1.png" style="border-radius: 40%; border: 3px solid rgba(146, 146, 164, 0.658);
+                     margin-left: 75%; width: 300px; height: 300px; background-color: aliceblue; margin-top: 10%;" alt="..." />
                 </div>
                 
                 <!-- Masthead Heading-->
-                <br><br><br><br><br><br><br><br><br><br><br><br>
-                <h1 class="masthead-heading text-uppercase mb-0">Kian Maniago</h1> <br>
-                <p>A student from Holy Angel University taking Bachelor of Science in <br>Information Technology-with Area of Specialization in Web Development.</p>
+                
+                <h1 class="masthead-heading text-uppercase mb-0" style="color: antiquewhite;">Kian Maniago</h1> <br>
+                <h2 style="color: antiquewhite;">Welcome to my official Web Portfolio</h2>
                 <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-circle"></i></div>
-                    <div class="divider-custom-line"></div>
+                <div class="divider-custom divider-light" style="color: antiquewhite;">
+                    <div class="divider-custom-line" style="color: antiquewhite;"></div>
+                    <div class="divider-custom-icon" style="color: antiquewhite;"><i class="fas fa-circle"></i></div>
+                    <div class="divider-custom-line" style="color: antiquewhite;"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Web Developer</p>
+                <p class="masthead-subheading font-weight-light mb-0" style="color: antiquewhite;">Web Developer</p>
             </div>
         </header>
         <!--Skills Section-->
-        <section class="page-section skills" id="skills">
+        <section class="page-section skills w3-animate-left bg-secondary" id="skills">
             <div class="container">
                 
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Coding Skills</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Coding Skills</h2>
                 <label for="html">HTML</label>
-                <div class="w3-section w3-light-grey">
-                    <div class="w3-container w3-padding w3-cyan w3-cyan w3-center" style="width:65%">65%</div>
-                  </div>
+                <div class="w3-light-grey" style="width: 70%;">
+                    <div class="w3-container w3-green w3-center" style="width:70%">70%</div>
+                  </div><br>
+                  
                 <label for="html">CSS</label>
-                <div class="w3-section w3-light-grey">
-                    <div class="w3-container w3-padding w3-cyan w3-cyan w3-center" style="width:55%">55%</div>
-                </div>
+                <div class="w3-light-grey" style="width: 70%;">
+                    <div class="w3-container w3-green w3-center" style="width:65%">65%</div>
+                  </div><br>
+                  
                 <label for="html">JAVA</label>
-                <div class="w3-section w3-light-grey">
-                    <div class="w3-container w3-padding w3-cyan w3-cyan w3-center" style="width:60%">60%</div>
-                </div>
+                <div class="w3-light-grey" style="width: 70%;">
+                    <div class="w3-container w3-green w3-center" style="width:70%">70%</div>
+                  </div><br>
+                  
                 <label for="html">PYTHON</label>
-                <div class="w3-section w3-light-grey">
-                  <div class="w3-container w3-padding w3-cyan w3-cyan w3-center" style="width:65%">65%</div>
-                </div>
+                <div class="w3-light-grey" style="width: 70%;">
+                    <div class="w3-container w3-green w3-center" style="width:73%">73%</div>
+                  </div><br>
+                  
                 <label for="html">ANGULAR</label>
-                <div class="w3-section w3-light-grey">
-                    <div class="w3-container w3-padding w3-cyan w3-cyan w3-center" style="width:60%">60%</div>
-                  </div>
+                <div class="w3-light-grey" style="width: 70%;">
+                    <div class="w3-container w3-green w3-center" style="width:70%">70%</div>
+                  </div><br>
+                  
             </div>
         </section>
        
-        <!-- Works Section-->
-        <section class="page-section portfolio bg-secondary"  id="works">
-            <div class="container">
-                <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Works</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line bg-light"></div>
-                    <div class="divider-custom-icon text-white"><i class="fas fa-circle"></i></div>
-                    <div class="divider-custom-line bg-light"></div>
-                </div>
-                <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center">
-                    <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/favolosa.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/tictactoe.png" alt="..." />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+       
         <!-- About Section-->
         <section class="page-section text-blue mb-0" id="about">
             <div class="container">
@@ -178,6 +159,9 @@
                         knowledge through my experience and gain
                         relevant skills and knowledge to accomplish my
                         goals.</p></div>
+                        <a href="assets/Creative Resume.png" download>
+                            <button class="btn" >Download Resume</button>
+                          </a>
                 </div>
                
                 
@@ -250,9 +234,7 @@
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
           </div>
-          <a href="assets/Creative Resume.png" download>
-            <button class="btn" >Download Resume</button>
-          </a>
+          
         </section>
         
            
@@ -335,7 +317,7 @@
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Location</h4>
                         <p class="lead mb-0"><i class="fas fa-location-arrow"></i>
-                            Mexico, Pampanga
+                            Mexico, Pampanga, Philippines 2021
                         </p>
                     </div>
                     <!-- Footer Social Icons-->
@@ -353,82 +335,18 @@
                         <p class="lead mb-0"><i class="fa fa-envelope"></i>
                             klmaniago@student.hau.edu.ph
                         </p>
+                        <p class="lead mb-0"><i class="fa fa-envelope"></i>
+                            kianmaniago15@gmail.com
+                        </p>
                     </div>
                 </div>
             </div>
         </footer>
         <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Kian Maniago 2021</small></div>
+        <div class="copyright py-2 text-center text-white">
+            <div class="container"><small style="size: 1em;">Copyright &copy; Kian Maniago 2021</small></div>
         </div>
-        <!-- Portfolio Modals-->
-        <!-- Portfolio Modal 1-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">FavolosaPH</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-circle"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/favolosa.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">A collaborative work where consists of 4 members
-                                        working together to form an online shopping website.
-                                        This project provides users a website where they can
-                                        browse and buy items or accessories to their liking. It was
-                                        made recently with my groupmates</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tic-Tac-Toe App</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-circle"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/tictactoe.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">A collaborative work where consists of 4 members
-                                        working together to form a tic-tac-toe game. This
-                                        project provides users entertainment while playing with
-                                        other players. It was made in android studio which is
-                                        the official IDE of android app development. It was made during
-                                        my Senior High School days as a final requirement.</p>
-                                        
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
